@@ -69,9 +69,111 @@ body {
     /* border: 2px solid green; */
     margin-top: 50px;
 }
-.banner-image img{
+
+.banner-image img {
     width: 100%;
     height: 100%;
 }
 
 /* banner section style end here  */
+
+/* Featured Image section style start  */
+.featured-flowers-container {
+    max-width: 1440px;
+    height: 790px;
+
+    /* border: 2px solid rebeccapurple; */
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.featured-text-content {
+    max-width: 594px;
+    height: 132px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.featured-text-content h1 {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.featured-text-content p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.featured-image-content {
+
+    /* border: 2px solid red; */
+
+    max-width: 1440px;
+    height: 605px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-image-card {
+    max-width: 464px;
+    height: 605px;
+    /* border: 2px solid orange; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 110px 78px 0px 78px;
+
+    border-radius: 50% 50% 0 0;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.figure-1 {
+    width: 310px;
+    height: 428px;
+    /* border: 1px solid mediumblue; */
+    margin-top: 62px;
+
+}
+
+.figure-2 {
+    width: 310px;
+    height: 428px;
+    /* border: 1px solid mediumblue; */
+    margin-top: 80px;
+}
+
+.figure-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.figure-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.figure-1 figcaption {
+    margin-top: 10px;
+    text-align: center;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.figure-2 figcaption {
+    margin-top: 8px;
+    text-align: center;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+/* Featured Image section style end  */
